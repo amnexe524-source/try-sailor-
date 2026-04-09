@@ -8,7 +8,7 @@
 
 import { serve } from "https://deno.land/std@0.208.0/http/server.ts";
 
-const BOT_TOKEN    = Deno.env.get("BOT_TOKEN") || "ใส่_BOT_TOKEN_ตรงนี้";
+const BOT_TOKEN    = Deno.env.get("BOT_TOKEN") || "8746970065:AAGwhDSRhbxPlz-eVqzBUkxAMUz9u-IVn9k";
 const TELEGRAM_API = `https://api.telegram.org/bot${BOT_TOKEN}`;
 const KV           = await Deno.openKv();
 
