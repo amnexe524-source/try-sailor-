@@ -6,7 +6,7 @@
 //  ✅ Telegram Bot + Mini App + Alert System
 // =========================================================
 
-const BOT_TOKEN    = Deno.env.get("BOT_TOKEN") || "ใส่_BOT_TOKEN_ตรงนี้";
+const BOT_TOKEN    = Deno.env.get("BOT_TOKEN") || "8746970065:AAGwhDSRhbxPlz-eVqzBUkxAMUz9u-IVn9k";
 const TELEGRAM_API = `https://api.telegram.org/bot${BOT_TOKEN}`;
 let _kv: Deno.Kv | null = null;
 async function getKv() {
